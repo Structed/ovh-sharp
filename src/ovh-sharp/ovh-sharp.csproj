@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Title>OVH Sharp</Title>
+  </PropertyGroup> 
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <AssemblyName>ovh-sharp</AssemblyName>
+    <RootNamespace>OvhSharp</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Johannes Ebner &lt;ovh-sharp@jebner.de&gt;</Authors>
+    <Company>RE'FLEKT GmbH</Company>
+    <Description>C# Wrapper for OVH's API</Description>
+    <PackageProjectUrl />
+    <RepositoryUrl>https://bitbucket.org/reflekt/reflekt.ovh</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>ovh api wrapper</PackageTags>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.6\ovh-sharp.xml</DocumentationFile>
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>True</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+  </ItemGroup>
+</Project>

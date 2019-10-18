@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>ovh-cli</AssemblyName>
+    <RootNamespace>OvhSharp.Cli</RootNamespace>
+    <PackageId>ovh-cli</PackageId>
+    <Authors>Johannes Ebner &lt;ovh-sharp@jebner.de&gt;</Authors>
+    <Company>RE'FLEKT GmbH</Company>
+    <Product>ovh-cli</Product>
+  </PropertyGroup> 
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
+  </PropertyGroup> 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>True</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.0" />
+    <PackageReference Include="Serilog" Version="2.5.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.0.1" />
+    <PackageReference Include="System.ValueTuple" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ovh-sharp\ovh-sharp.csproj" />
+  </ItemGroup>
+
+</Project>
