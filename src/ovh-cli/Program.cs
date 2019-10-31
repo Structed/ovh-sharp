@@ -136,7 +136,7 @@ namespace OvhSharp.Cli
                         Console.WriteLine("Found/filtered records:");
                         recordDetails.ForEach(token => Console.WriteLine(token.ToString()));
 
-                        ConsoleKeyInfo key;
+                        ConsoleKeyInfo key = new ConsoleKeyInfo();
 
                         if (false == forceOption.HasValue())
                         {
