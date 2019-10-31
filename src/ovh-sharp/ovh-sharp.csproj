@@ -2,9 +2,10 @@
   <PropertyGroup>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Title>OVH Sharp</Title>
+    <LangVersion>8</LangVersion>
   </PropertyGroup> 
   <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>ovh-sharp</AssemblyName>
     <RootNamespace>OvhSharp</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
