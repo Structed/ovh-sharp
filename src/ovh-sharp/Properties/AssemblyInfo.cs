@@ -11,9 +11,8 @@ using System.Resources;
 [assembly: AssemblyTitle("OVH API Wrapper Library")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("RE'FLEKT GmbH")]
-[assembly: AssemblyProduct("REFLEKT OVH")]
-[assembly: AssemblyCopyright("Copyright © RE'FLEKT GmbH 2017")]
+[assembly: AssemblyProduct("ovh-sharp")]
+[assembly: AssemblyCopyright("Copyright © Johannes Ebner 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en")]
@@ -31,4 +30,4 @@ using System.Resources;
 [assembly: AssemblyVersion("0.1.0.0")]
 [assembly: AssemblyFileVersion("0.1.0.0")]
 
-[assembly: AssemblyInformationalVersion("0.1.0-alpha.85+Branch.develop.Sha.4225aa49440676148e5fbe374dc154f0b8b1fb3e")]
+[assembly: AssemblyInformationalVersion("0.1.0-gh-6")]
