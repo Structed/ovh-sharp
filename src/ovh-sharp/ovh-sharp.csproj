@@ -3,22 +3,21 @@
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Title>OVH Sharp</Title>
     <LangVersion>8</LangVersion>
-  </PropertyGroup> 
-  <PropertyGroup>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>ovh-sharp</AssemblyName>
     <RootNamespace>OvhSharp</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Johannes Ebner &lt;ovh-sharp@jebner.de&gt;</Authors>
-    <Company>RE'FLEKT GmbH</Company>
     <Description>C# Wrapper for OVH's API</Description>
-    <PackageProjectUrl />
-    <RepositoryUrl>https://bitbucket.org/reflekt/reflekt.ovh</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Structed/ovh-sharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Structed/ovh-sharp</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
-    <PackageTags>ovh api wrapper</PackageTags>
+    <PackageTags>ovh api wrapper domain zone</PackageTags>
+    <PackageVersion>1.0.0-gh-6</PackageVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard1.6\ovh-sharp.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\ovh-sharp.xml</DocumentationFile>
     <DebugType>embedded</DebugType>
     <DebugSymbols>True</DebugSymbols>
   </PropertyGroup>
