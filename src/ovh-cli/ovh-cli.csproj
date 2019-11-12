@@ -1,15 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AssemblyName>ovh-cli</AssemblyName>
     <RootNamespace>OvhSharp.Cli</RootNamespace>
     <PackageId>ovh-cli</PackageId>
     <Authors>Johannes Ebner &lt;ovh-sharp@jebner.de&gt;</Authors>
-    <Company>RE'FLEKT GmbH</Company>
     <Product>ovh-cli</Product>
     <LangVersion>8</LangVersion>
-  </PropertyGroup> 
-  <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
