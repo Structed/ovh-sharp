@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <Title>OVH Sharp</Title>
@@ -14,9 +14,10 @@
     <RepositoryUrl>https://github.com/Structed/ovh-sharp</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <PackageTags>ovh api wrapper domain zone</PackageTags>
+    <PackageVersion>1.0.0-gh-6</PackageVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard1.6\ovh-sharp.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\netstandard2.0\ovh-sharp.xml</DocumentationFile>
     <DebugType>embedded</DebugType>
     <DebugSymbols>True</DebugSymbols>
   </PropertyGroup>
